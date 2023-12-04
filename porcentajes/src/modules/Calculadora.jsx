@@ -54,7 +54,7 @@ export function Calculadora() {
           <div className="input-porc-flex">
             <label htmlFor="precioProveedor">Precio del proveedor: $
               <input
-                type="text"
+                type="number"
                 name="precioProveedor"
                 value={precioProveedor}
                 onChange={handleChange}
@@ -65,7 +65,7 @@ export function Calculadora() {
           <div className="input-porc-flex">
             <label htmlFor="kilos">Kilos:
               <input
-                type="text"
+                type="number"
                 name="kilos"
                 value={kilos}
                 onChange={handleChange}
