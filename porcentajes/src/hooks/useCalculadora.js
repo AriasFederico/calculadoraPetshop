@@ -59,8 +59,6 @@ export function useCalculadora() {
   obtenerDatos(), // Función para el estado inicial
   );
 
-
-
   useEffect(() => {
     // Obtener datos después del primer renderizado
     dispatch({ type: 'init', data: obtenerDatos() });
